@@ -41,7 +41,8 @@ const ContactForm = () => {
         <div className="checkbox">
           <input type="checkbox" />
           <p>
-            You agree to providing your data to Abdullahi which may contact you
+            You agree to providing your data to Abdullahi.js which may contact
+            you
           </p>
         </div>
         <button id="btn_submit">Send message</button>

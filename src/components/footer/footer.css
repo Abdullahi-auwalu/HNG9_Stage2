@@ -1,48 +1,55 @@
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-top: 50px;
-    border-top: 1px solid rgba(128, 128, 128, 0.329);
-    padding: 10px 0;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  border-top: 1px solid rgba(128, 128, 128, 0.329);
+  padding: 10px 0;
 }
 
-.footer > img {
-    transform: scale(0.4);
-    margin-top: 20px;
+.zuri_logo {
+  margin-left: 5rem;
 }
 
-.footer > span {
-    font-size: 1rem;
-    color: gray;
-    margin-top: 20px;
-    
+.reddot {
+  position: absolute;
+  margin-left: 3.2rem;
+  margin-top: 2rem;
 }
 
+.vector,
+.text {
+  transform: scale(1);
+  margin-top: 20px;
+}
 
+.i4g {
+  transform: scale(0.4);
+  margin-top: 20px;
+}
 
 /* Mobile View */
 
-@media screen and (max-width: 600px) {
-    .footer{
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .footer > span{
-        margin-left: -15rem;
-        margin-top: -10px;
-    }
+@media screen and (max-width: 900px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-    .footer > img {
-        transform: scale(0.3);
-        margin-left: -18rem;
-        margin-top: -10px;
+  .zuri_logo {
+    margin-left: -14.5rem;
+    margin-top: 20px;
+  }
 
-    }
+  .text {
+    margin-left: -12rem;
+    margin-top: 20px;
+    margin-top: 3rem;
+  }
 
-    .footer >:nth-child(3){
-        margin-left: -21rem;
-    }
-    
+  .footer > :nth-child(3) {
+    margin-left: -18rem;
+  }
 }

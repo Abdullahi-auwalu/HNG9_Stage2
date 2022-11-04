@@ -1,14 +1,20 @@
 import "./footer.css";
 import Vector from "../../img/Vector.png";
-import I4G from "../../img/I4G.png"
+import I4G from "../../img/I4G.png";
+import FooterText from "../../img/Footer_text.png";
+import RedDot from "../../img/reddot.png";
+
 const Footer = () => {
   return (
     <div className="footer">
-      <img src={Vector} alt="" />
-      <span>HNG Internship 9 Frontend Task</span>
-      <img src={I4G} alt="" />
+      <div className="zuri_logo">
+        <img className="reddot" src={RedDot} alt="" />
+        <img className="vector" src={Vector} alt="" />
+      </div>
+      <img className="text" src={FooterText} alt="" />
+      <img className="i4g" src={I4G} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
