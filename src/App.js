@@ -5,18 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    // <Router>
-    //   <div className="App">
-    //     <Routes>
-    //       <Route exact path="/">
-    //         <Home />
-    //       </Route>
-    //       <Route path="/contact">
-    //         <Contact />
-    //       </Route>
-    //     </Routes>
-    //   </div>
-    // </Router>
+  
 
     <BrowserRouter>
       <Routes>
@@ -35,11 +24,4 @@ function App() {
 
 export default App;
 
-// <BrowserRouter>
-//   <Routes>
-//     <Route path="/">
-//       <Route path="home" element={<Home />} />
-//       <Route index element={<Home />} />
-//     </Route>
-//   </Routes>
-// </BrowserRouter>
+
