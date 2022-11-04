@@ -1,0 +1,7 @@
+.social{
+    margin-bottom: 20px;
+}
+.social > img{
+    transform: scale(0.5);
+    margin-top: -3rem;
+}

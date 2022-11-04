@@ -1,0 +1,30 @@
+.profile-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+#profile_img {
+    width: 88px;
+    height: 88px;
+    background: url(../../img/profile__img.jpg);
+    
+    margin: 20px;
+    border-radius: 275px;
+}
+
+#twitter{
+    font-family: Inter, sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+#slack{
+    display: none;
+}
