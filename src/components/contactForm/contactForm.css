@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   padding: 20px 50px;
-  height: 30vh;
+  height: 60vh;
   gap: 1rem;
-  margin: 18rem 0 5rem 0;
+  margin: 14rem 0 5rem 0;
 }
 
 .heading {
@@ -151,6 +151,8 @@ form > input {
 
 .checkbox {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin: 10px 0;
   color: #475467;
   gap: 10px;
